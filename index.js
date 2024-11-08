@@ -7,7 +7,7 @@ var dice2= document.querySelector('.img2').setAttribute('src','./images/'+'dice'
 
 if (randomNumber1>randomNumber2){
     document.querySelector('h1').innerHTML='Player 1 Won';
-} if(randomNumber1<randomNumber2){
+} else if(randomNumber1<randomNumber2){
             document.querySelector('h1').innerHTML='Player 2 Won'
 } else{
     document.querySelector('h1').innerHTML='Draw!';
